@@ -1,0 +1,97 @@
+dan@DESKTOP-CROUC1R MINGW64 /c/class_docs/working/Homework/19-Blockchain-Python/19-Blockchain-Python/wallet (main)
+$ python
+Python 3.7.7 (default, May  6 2020, 11:45:54) [MSC v.1916 64 bit (AMD64)] :: Anaconda, Inc. on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from wallet import *
+Consider installing rusty-rlp to improve pyrlp performance with a rust based backend
+{
+    "eth": [
+        {
+            "path": "m/44'/60'/0'/0/0",
+            "address": "0x13C0fAd72f393A9ea42AE90c7a868f509cF13CD6",
+            "xprv": "xprvA2T4dkHpm3f1RiFj3HmqHHTQ19jXw2s3XoKFc1Kd7y9WuxVNCSmPByhBKQxye9SjtnWUor3ERxrBjRbQ29YKg3fQxNtpzazsi9CmSVehtua",
+            "xpub": "xpub6FSR3FpibRDJeCLC9KJqeRQ8ZBa2LVatu2ErQPjEgJgVnkpWjz5djn1fAfkaWdThX2J1NjjkM9H1TvBgGaH6sffWKPKsjwh9GRCzxE4fJHa",
+            "privkey": "0xfafd42635c2f1a7281ce6d747bf7e10fb62f415a6360a7113ae26e5596616814",
+            "pubkey": "02dad36bd82ad2afc57ebb5533840297c407d94fc1e0bb1c8b03424f4faa4f56c0",
+            "pubkeyhash": "c96389b50315d3914fbe1126698bd5cb81a025d5",
+            "index": 0
+        },
+        {
+            "path": "m/44'/60'/0'/0/1",
+            "address": "0x94B2aC289A0891DA0518383A792F47d9F724A5A8",
+            "xprv": "xprvA2T4dkHpm3f1Uq3SXx1nQyuWGbEEmNr3N7BxMk9QNd8veyCbX71uEsETDR7g8L83UXTv6XaFXgXDaGYynZzMY9bepWYFsa53oSKdZh6N84r",
+            "xpub": "xpub6FSR3FpibRDJhK7udyYnn7rEpd4jAqZtjL7ZA8Z1vxfuXmXk4eL9nfYw4h56pyng39zwfPfzGcXc4AV1PTcnZLkkVGxv7XCG2x64MMaEynx",
+            "privkey": "0x2bb4182e471c964b9aba33d394082ecda5f140c6eb18e0c4d9f98f672b44af35",
+            "pubkey": "02a58b54883491eb2e71a1ebda7eccd364fd88780a8815acd83133ecbacac8bacc",
+            "pubkeyhash": "ab26dcc4f4d8df08770113a4e83b0ad8bb303bcf",
+            "index": 1
+        },
+        {
+            "path": "m/44'/60'/0'/0/2",
+            "address": "0x6c44d9f5776cBD1E57b438FB8C59377fEa2E830b",
+            "xprv": "xprvA2T4dkHpm3f1XJpWdYGnAhGor77tYv78cATaEivduYrxbLQjJ99PpKeh9PF4UBo9dFE1ZccAXMBz8cuufniTL7o5fWqGaPSCxa4cfYubhMw",
+            "xpub": "xpub6FSR3FpibRDJjntyjZonXqDYQ8xNxNpyyPPB37LFTtPwU8jsqgTeN7yAzdUhHvj52nYRxtvvf1HtJpGzs9vPAjrQUFWtDDMqzPheGTHeBiy",
+            "privkey": "0x9ce578e772520a87c910266835f0ca3bb647db8d01002dfa7d32b928f4c24450",
+            "pubkey": "02342644279bbe8cc9a9b1c5c44efc5b7c08938fadfdb9080131e2a0a4ea21d87d",
+            "pubkeyhash": "ac05739bb9717aff40c72cac64aba2c11a6b900c",
+            "index": 2
+        }
+    ],
+    "btc-test": [
+        {
+            "path": "m/44'/1'/0'/0/0",
+            "address": "mtKUSerEDpU1ggzhqJ2gpCYStFc1HM35dr",
+            "xprv": "tprv8jXmerkjhDM1RQQ2gZksDGvp8aXcjmgrMAfuvU4L7jokKoSznstXYTUmKyAFvpEYaQD5NV2B6q5SHp4GQup6ZBuBi18aG6HS9PMME23XFEt",
+            "xpub": "tpubDGDooGnyqb2gJsRpaDRTcgavhc3Yu6skvUGhCz6dY1c9AHhmRGi7ix6dW5mnmpz5DRExpgV6pV7sx7BUVCxnoGZYECq1GZ73jP3cMphaaop",
+            "privkey": "cPbDGEZABgmQbsWrZceAuF5Jx3xHVhD2sJ8wV49s5Wh4sUAKDvCV",
+            "pubkey": "020ff80db75be53831cef275b34e3faceb9b01e0582f2a87ed203e09a1f6bc289e",
+            "pubkeyhash": "8c6dcf661ad473ea20e7d25f281bb59e18a54d61",
+            "index": 0
+        },
+            "path": "m/44'/1'/0'/0/1",
+            "address": "mm5HXCrrrK5vDgMH14GxYwpRbQvHsxzmWV",
+            "xprv": "tprv8jXmerkjhDM1Rjwa4QejbU3i9wBHjR34qYHfJW76E7gGewSPAc1MjFxZWgNux3tDPf59rcDF89mfCRwp7jxvsMR35QNF23yfvHpZZzbgLS8",
+            "xpub": "tpubDGDooGnyqb2gKCyMx4KKzshpixhDtkDyQqtSb29PePUfVRh9nzpwukaRgnnHcGTnvPiY9Eqm2KBXauBCuiSYapYFDtNZQvhumcUx6EWmLQ3",
+            "privkey": "cRhAXALoyP4NDmZzSxK7d8RkBTAZHcRtEPcELpy96K5WeTsCj48J",
+            "pubkey": "023319557b18a2b2284e709408932de04a4ca8d79a1afb55b4c3385dd731540fa1",
+            "pubkeyhash": "3cf5fd47b6a7a7ed3a05c142da28c843e9577d4a",
+            "index": 1
+        },
+        {
+            "path": "m/44'/1'/0'/0/2",
+            "address": "mx8vXESDNZRmXS6WCH77RTfCGnpzPZRUrC",
+            "xprv": "tprv8jXmerkjhDM1UF8QZWg2HJf7EPtcXKkMPeH5DLGvffwkMgC512aobKcFVdCCWDD9S6vk8f1q8N5DtaWo4FJSLZaBHMQsh4dwgF5EVEzQG9h",
+            "xpub": "tpubDGDooGnyqb2gMiACTALcgiKDoRQYgewFxwsrVrKE5wk9CASqdRQPmpE7fnUpEU2KLbGLHLkQ4H2A3YiTZ6JKv912tV4UQ5aLeyuBUn7nVqf",
+            "privkey": "cPcRYp5GVymzdejBBYTKtzH9FvYudwR9xMEpN5MZX8fe1zNLAmpR",
+            "pubkey": "0370bae2089d987d92a77091452dde1350c6cde45f29387619d89792cd09b31bbc",
+            "pubkeyhash": "b64f81df956c640bf1f76c1022447db130873fd2",
+            "index": 2
+        }
+    ]
+}
+>>> eth_src_privkey = coins[ETH][0]['privkey']
+>>> print(eth_src_privkey)
+0xfafd42635c2f1a7281ce6d747bf7e10fb62f415a6360a7113ae26e5596616814
+>>> eth_src_account = priv_key_to_account(ETH, eth_src_privkey)
+>>> eth_dst_addr = coins[ETH][1]['address']
+>>> print(eth_dst_addr)
+0x94B2aC289A0891DA0518383A792F47d9F724A5A8
+>>>
+>>> eth_tx_result = send_tx(ETH, eth_src_account, eth_dst_addr, 10)
+>>> print(eth_tx_result)
+0xfea790d3bae518318b43a3da0b0920b01fd18e083c09d88308e3f3b7c3a55328
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> btctest_src_privkey = coins[BTCTEST][0]['privkey']
+>>> print(btctest_src_privkey)
+cPbDGEZABgmQbsWrZceAuF5Jx3xHVhD2sJ8wV49s5Wh4sUAKDvCV
+>>> btctest_src_account = priv_key_to_account(BTCTEST, btctest_src_privkey)
+>>> btctest_dst_addr = coins[BTCTEST][2]['address']
+>>> print(btctest_dst_addr)
+mx8vXESDNZRmXS6WCH77RTfCGnpzPZRUrC
+>>>
+>>> btctest_tx_results = send_tx(BTCTEST, btctest_src_account, btctest_dst_addr, 0.000001)
+>>>

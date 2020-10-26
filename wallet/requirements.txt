@@ -1,1 +1,3 @@
-pip install -U python-dotenv
+python-dotenv
+web3
+bit
